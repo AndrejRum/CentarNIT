@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body style="margin: 0;">
+  <style>
+    .div1{
+      width: 100%;
+      height: 50px;
+      background-color: blue;
+      display: flex;
+      flex-direction: row;
+
+
+    }
+    .levi{
+      width: 50%;
+      height: 100%;
+      background-color: greenyellow;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+
+      
+      
+      
+      
+    }
+    .desni{
+      width: 50%;
+      height: 100%;
+      background-color: greenyellow;
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      gap: 20px;
+    }
+    .slika1{
+      height: 100%;
+
+    }
+    .desni a{
+      font-size: 15px;
+      text-decoration: none;
+      color: black;
+    }
+    body{
+      background-color: orangered;
+    }
+    .forma1{
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      background-color:black;
+      border: none;
+      color: white;
+      
+    }
+    .div2{
+      width: 100%;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      
+      
+
+    }
+    .forma1 label{
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+    }
+    button{
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      background-color: greenyellow;
+      border: none;
+      cursor: pointer;
+      
+    }
+  </style>
+  <header>
+    <div class="div1">
+      <div class="levi">
+        <img  class="slika1" src="https://cdn3.iconfinder.com/data/icons/picons-social/57/56-apple-512.png" alt="">
+        <h1>Moj sajt</h1> 
+      </div>
+      <div class="desni">
+        <a target="_blank" href="https://www.google.com/">Google</a>
+        <a target="_blank" href="https://www.linkedin.com/feed/">LinkedIn</a>
+        <a target="_blank" href="https://www.youtube.com/">YouTube</a>
+      </div>
+    </div>
+  </header>
+  <main >
+    <div class="div2">
+      <form class="forma1">
+        <label>Ime</label>
+        <input type="text" placeholder="Ime" >
+        <label>Prezime</label>
+        <input type="text" placeholder="Prezime
+        ">
+        <button>Registruj me</button>
+      </form>
+    </div>
+  </main>
+  
+</body>
+</html>

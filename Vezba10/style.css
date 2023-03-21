@@ -1,0 +1,35 @@
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+.main{
+  height: 400px;
+  width: 400px;
+  background-color: black;
+  position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.input-wrapper {
+  position: relative;
+  display: inline-block;
+}
+
+.input-wrapper:after {
+  content: '';
+  position: absolute;
+  left: -5px;
+  top: -5px;
+  right: -5px;
+  bottom: -5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+  opacity: 0;
+  transition: opacity 0.2s ease-in-out;
+}
+
+.input-wrapper input:focus + :after {
+  opacity: 1;
+}
