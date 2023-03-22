@@ -1,11 +1,251 @@
 body{
   margin: 0;
   padding: 0;
-
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .mainContainer{
   width: 100%;
-  height: 100vh;
-  background-color: gray;
+  height: 200vh;
+  background-color: #4a4a4a;
 }
+
+.navbar{
+  height: 80px;
+  background-color: #4a4a4a;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  display: flex;
+  flex-direction: row;
+}
+
+
+.logo1 img{
+  width: 50px;
+  height: 50px;
+  margin-top: 10px;
+  margin-left: 15px;
+  cursor: pointer;
+
+}
+
+.navmenu{
+height: 100%;
+width: 100%;
+background-color:#4a4a4a;
+display: flex;
+align-items: center;
+justify-content: flex-end;
+gap: 25px;
+
+}
+.navmenu span{
+  font-size: 20px;
+  color: #f6d44b;
+  cursor: pointer;
+  font-weight: 2px;
+
+}
+.navmenu select{
+  font-size: 18px;
+  border: none;
+  background-color: transparent;
+  font-weight:2px;
+  color: white;
+  transition: 0.5s;
+  
+}
+.navmenu select:hover{
+  cursor: pointer;
+  color: #f6d44b;
+}
+.navmenu button{
+  border: 1.8px solid white;
+  background-color: transparent;
+  border-radius: 20px;
+  font-size: 19px;
+  padding: 10px;
+  padding-left: 25px;
+  padding-right: 25px;
+  margin-right: 10px;
+  transition: 0.3s;
+  font-weight: 2px;
+  color: white;
+  transition: 0.5s;
+}
+.navmenu button:hover{
+  background-color: white;
+  color: blue;
+  cursor: pointer;
+}
+
+.proba{
+  width: 100%;
+  height: 200px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+.proba span{
+  margin-top: 80px;
+  color: gold;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 40px;
+}
+.glavni{
+  width: 100%;
+  height: 400px;
+  
+  display: flex;
+  
+}
+hr{
+  width: 98%;
+}
+
+.logo2{
+  height: 100%;
+  width: 150px;
+  
+}
+.navmenu2{
+  height: 100%;
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items:flex-start;
+  gap: 32px;
+}
+
+
+.pomocni{
+  height: 100%;
+  width: 50%;
+
+}
+.about{
+  height: 60%;
+  width: 80%;
+  margin-left:50px;
+  display:flex;
+  flex-direction: column;
+  text-align:inherit;
+  justify-content:center;
+ gap: 1px;
+  
+  
+}
+.icons{
+  height: 40%;
+  width: 80%;
+  margin-left:50px ;
+  display: inline-block;
+  justify-content: center;
+
+}
+
+.buts{
+  height: 100%;
+  width: 300px;
+ 
+  
+  
+}
+.logo2 img{
+  width: 70%;
+  margin-top: 30%;
+  margin-left: 20px;
+}
+
+.navmenu2 span{
+  margin-left:40%;
+  color: white;
+  font-weight: bold;
+  font-size: 17px;
+  transition: 1.5s;
+}
+.span1{
+  margin-top: 40px;
+}
+.about span{
+  color: white;
+ font-family:  "Whitney",sans-serif,arial;
+ font-weight: 400;
+ font-size: 18px;
+ margin-left:30%;
+ cursor: default;
+}
+ .icons i{
+    font-size: 30px;
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+    transition: 1.5s;
+   padding: 12px;    
+  }
+  .icons i:hover{
+    transform:rotatez(180deg);
+    color:rgb(92, 92, 241);
+  }
+
+  #fcb{
+    margin-left: 28%;
+  }
+  .logo2 img:hover{
+    transform:rotate(100deg);
+    cursor: pointer;
+  }
+  .navmenu2 span:hover{
+    color: #f6d44b;
+    cursor: pointer;
+    transform: rotate(360deg);
+  }
+  .btn1{
+    border: 1.8px solid white;
+  background-color: transparent;
+  border-radius: 20px;
+  font-size: 19px;
+  padding: 10px;
+  padding-left: 25px;
+  padding-right: 25px;
+  margin-right: 10px;
+  transition: 0.3s;
+  font-weight: 2px;
+  color: white;
+  transition: 0.5s;
+  margin-bottom:20px ;
+  margin-left: 32%;
+  margin-top: 10px;
+  }
+  .btn2{
+  border: none;
+  background-color: white;
+  border-radius: 20px;
+  font-size: 19px;
+  padding: 10px;
+  padding-left: 53px;
+  padding-right: 53px;
+  margin-right: 10px;
+  transition: 0.3s;
+  font-weight: 2px;
+  color: white;
+  transition: 0.5s;
+  margin-left: 32%;
+  color: blue;
+  }
+
+  .btn1:hover{
+    background-color: white;
+  color:blue;
+  cursor: pointer;
+}
+  .btn2:hover{
+    cursor: pointer;
+    background-color: transparent;
+    color: white;
+    border: 1.8px solid white;
+
+  }
