@@ -72,8 +72,36 @@ gap: 25px;
   color: blue;
   cursor: pointer;
 }
+#ikonica{
+  color: transparent;
 
-@media only screen and(max-witdh: 700px ) {
-  
+  font-size: 25px;
+  display: none;
+
 }
+
+
+@media only screen and (max-width: 700px ) {
+  
+  
+  .navmenu button{
+    display: none;
+  }
+  .navmenu span{
+    display: none;
+  }
+  .navmenu select{
+    display: none;
+    
+  }
+  #ikonica{
+    display: block;
+    color: white;
+    margin-right: 20px;
+  }
+}
+
+
+
+
 
