@@ -14,29 +14,87 @@ body{
 }
 
 .kartica{
-  width: 400px;
-  height: 400px;
+  width: 600px;
+  height: 330px;
   background-color: white;
   border-radius: 15px;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  
 }
-@keyframes LevoDesno {
-  from{
-    left: 0px;
-  }
-  to{
-    left: 300px;
-  }
+img{
+  height: 70%;
+  width: 200px;
+  position: relative;
+  top: 50px;
+  right: 30px;
+  border-radius: 20px;
+  box-shadow: 2px 2px 2px 2px  grey;
+}
+.text{
+  width: 100%;
+  height: 100%;
+
+}
+.text h2{
+  color: blue;
+  font-weight: bold;
+  font-size: 30px;
+  font-family: fantasy;
+  cursor: default;
+}
+
+.text p{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 15px;
+  cursor: default;
+}
+.text button{
+  padding: 10px 25px ;
+  border: 1px solid blue;
+  border-radius: 30px;
+  background-color: white;
+  color: blue;
+  font-family:cursive;
+  font-weight: bold;
+  position: relative;
+  left: 120px;
+  transition: 1.5s;
   
 }
 
-.item{
-  height: 100px;
-  width: 100px;
-  background-color: red;
-  position: relative;
-  animation-name: LevoDesno;
-  animation-duration: 5s;
+.text button:hover{
+  cursor: pointer;
+  background-color: blue;
+  color: white;
+
 }
+
+@media only screen and (max-width:600px){
+  .kartica{
+
+    width: 330px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+
+  }
+  img{
+    height: 200px;
+    width: 300px;
+    top: 10px;
+    left: 11px;
+    bottom: 10px;
+  }
+  .text h2{
+    text-align: center;
+  }
+  .text p{
+    align-items: center;
+
+  }
+
+  
+}
+  
+
+
