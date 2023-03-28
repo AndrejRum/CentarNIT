@@ -1,0 +1,42 @@
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main{
+  width: 100%;
+  height: 100vh;
+  background-color: gray;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.kartica{
+  width: 400px;
+  height: 400px;
+  background-color: white;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@keyframes LevoDesno {
+  from{
+    left: 0px;
+  }
+  to{
+    left: 300px;
+  }
+  
+}
+
+.item{
+  height: 100px;
+  width: 100px;
+  background-color: red;
+  position: relative;
+  animation-name: LevoDesno;
+  animation-duration: 5s;
+}
