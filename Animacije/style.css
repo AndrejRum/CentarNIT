@@ -1,0 +1,54 @@
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.border{
+  width: 400px;
+  height: 400px;
+  border: 2px solid black;
+}
+
+
+.item{
+  height: 100px;
+  width: 100px;
+  background-color: rebeccapurple;
+  position: relative;
+  animation-name: okolo;
+  animation-duration: 3s;
+
+}
+
+
+@keyframes okolo {
+
+  0%{
+    left: 0px;
+    
+  }
+  25%{
+    left: 300px;
+    top: 0px;
+  }
+  50%{
+    left: 300px;
+    top: 300px;
+    
+    
+
+  }
+  75%{
+    top: 300px;
+    left: 0px;
+  }
+  100%{
+    left: 0px;
+    top: 0px;
+  }
+
+  
+}
