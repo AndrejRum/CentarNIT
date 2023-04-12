@@ -1,0 +1,61 @@
+body{
+
+  margin: 0;
+  padding: 0;
+}
+
+
+.main{
+
+  width: 100%;
+  height: 100vh;
+  background-color: burlywood;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.item{
+
+height: 300px;
+width: 300px;
+background-color: brown;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+
+
+
+}
+.but{
+
+  height: 30px;
+  width: 100px;
+  border: none;
+  background-color: blue;
+  border-radius: 10px;
+  position: relative;
+
+
+}
+
+
+.but:hover  {
+  
+  cursor: pointer;
+
+}
+
+.divv{
+  background-color: beige;
+  display: none;
+  width: 50%;
+  position: absolute;
+}
+
+.but:hover .divv{
+
+  display: block;
+}
+
